@@ -1,0 +1,19 @@
+Open Mosaic
+
+Basic Mosaic
+1. Calculate average RGB for each image
+2. Calculate average RGB for each section in target image
+3. Find closest lib image for each section of target image
+4. Try different section sizes
+
+Intermediate Mosaic
+1. Calculate "distance" between section in target and each lib image
+2. Replace section with closest lib image
+3. Try different section sizes
+
+Lib Modified Mosaic
+1. Intermediate Mosaic
+2. Shift all RGB colors X towards section in target image
+3. Try different Shift X values
+
+Try all with color diff and rgb diff
